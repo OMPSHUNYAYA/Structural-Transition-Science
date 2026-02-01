@@ -125,25 +125,15 @@ Includes:
 Visualization-only helpers for **interpretability**.  
 These scripts **do not generate evidence** and **do not affect proofs**.
 
-- **Demo directory**  
-  [`demo/`](demo/)
-
-- **Transition gate demo**  
-  [`demo/ssts_transition_gate_demo.py`](demo/ssts_transition_gate_demo.py)
-
-- **Gate partition visualization**  
-  [`demo/demo_gate_partition.py`](demo/demo_gate_partition.py)
-
-- **History-dependent posture demo**  
-  [`demo/demo_sequence_posture.py`](demo/demo_sequence_posture.py)
-
-- **Rendered plots (PNG)**  
-  [`demo/`](demo/)
+- **Demo directory** — [`demo/`](demo/)
+- **Transition gate demo** — [`demo/ssts_transition_gate_demo.py`](demo/ssts_transition_gate_demo.py)
+- **Gate partition visualization** — [`demo/demo_gate_partition.py`](demo/demo_gate_partition.py)
+- **History-dependent posture demo** — [`demo/demo_sequence_posture.py`](demo/demo_sequence_posture.py)
+- **Rendered plots (PNG)** — located in [`demo/`](demo/)
 
 ---
 
 ### **Repository Metadata**
-- **Root README** — [`README.md`](README.md)
 - **License** — [`LICENSE`](LICENSE)
 - **External Dataset Attribution** — [`DATASET_ATTRIBUTION.md`](DATASET_ATTRIBUTION.md)
 
