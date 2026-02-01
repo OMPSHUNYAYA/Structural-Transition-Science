@@ -62,10 +62,10 @@ Admissibility is evaluated conservatively and reproducibly using:
 ## 🔗 Quick Links
 
 ### **Docs**
-- [**Quickstart Guide**](docs/Quickstart.md)
+- [**Concept Flyer (PDF)**](docs/Concept-Flyer_SSTS_v1.6.pdf)
+- [**Full Specification (PDF)**](docs/SSTS_v1.6.pdf)
 - [**FAQ**](docs/FAQ.md)
-- [**Full Specification (PDF)**](docs/SSTS.pdf)
-- [**Concept Flyer (PDF)**](docs/Concept-Flyer_SSTS.pdf)
+- [**Quickstart Guide**](docs/Quickstart.md)
 
 ---
 
