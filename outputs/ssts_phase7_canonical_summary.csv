@@ -1,0 +1,10 @@
+metric,value
+cases_total,10
+deny,5
+abstain,4
+allow,1
+tau,0.620000
+band,0.050000
+wg,0.450000
+wa,0.350000
+wc,0.200000

@@ -1,0 +1,10 @@
+sequence_id,sequence_label,step_idx,g,a,c,score,tau,band,status,risk_r,resistance_s_placeholder,note
+A,low_mid_approach,1,0.500000,0.450000,0.450000,0.472500,0.620000,0.050000,DENY,0.147500,0.000000,v2: resistance is placeholder (always 0.0); see Phase 5 v1 for history-dependent resistance
+A,low_mid_approach,2,0.550000,0.500000,0.500000,0.522500,0.620000,0.050000,DENY,0.097500,0.000000,v2: resistance is placeholder (always 0.0); see Phase 5 v1 for history-dependent resistance
+A,low_mid_approach,3,0.580000,0.550000,0.550000,0.563500,0.620000,0.050000,DENY,0.056500,0.000000,v2: resistance is placeholder (always 0.0); see Phase 5 v1 for history-dependent resistance
+B,strong_approach,1,0.750000,0.720000,0.720000,0.733500,0.620000,0.050000,ALLOW,0.000000,0.000000,v2: resistance is placeholder (always 0.0); see Phase 5 v1 for history-dependent resistance
+B,strong_approach,2,0.780000,0.750000,0.750000,0.763500,0.620000,0.050000,ALLOW,0.000000,0.000000,v2: resistance is placeholder (always 0.0); see Phase 5 v1 for history-dependent resistance
+B,strong_approach,3,0.800000,0.780000,0.780000,0.789000,0.620000,0.050000,ALLOW,0.000000,0.000000,v2: resistance is placeholder (always 0.0); see Phase 5 v1 for history-dependent resistance
+C,boundary_climb,1,0.600000,0.580000,0.580000,0.589000,0.620000,0.050000,ABSTAIN,0.031000,0.000000,v2: resistance is placeholder (always 0.0); see Phase 5 v1 for history-dependent resistance
+C,boundary_climb,2,0.620000,0.600000,0.600000,0.609000,0.620000,0.050000,ABSTAIN,0.011000,0.000000,v2: resistance is placeholder (always 0.0); see Phase 5 v1 for history-dependent resistance
+C,boundary_climb,3,0.640000,0.610000,0.610000,0.623500,0.620000,0.050000,ABSTAIN,0.000000,0.000000,v2: resistance is placeholder (always 0.0); see Phase 5 v1 for history-dependent resistance

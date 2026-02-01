@@ -1,0 +1,2 @@
+rsmi_file,max_lines,every_k,tau,band,total_lines_seen,parsed,skipped,evidence_rows_written,baseline_thr,ALLOW_real,ALLOW_not,ABSTAIN_real,ABSTAIN_not,DENY_real,DENY_not,HIGH_real,HIGH_not,LOW_real,LOW_not
+data\uspto_smiles_2001\2001_Sep2016_USPTOapplications_smiles.rsmi,200000,25,0.620000,0.050000,200000,199999,1,7999,0.55,34562,0,71993,0,93444,0,197482,0,2517,0

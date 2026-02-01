@@ -1,0 +1,11 @@
+phase,case_id,case_name,variant,energy_legal,g,a_int,c,note,wg,wa,wc,tau,band,score,status
+7,A,Symmetry barrier (canonical),allowed_direction,1,0.800000,0.650000,0.300000,Energy available; structural alignment is coherent; access is present; context modest.,0.450000,0.350000,0.200000,0.620000,0.050000,0.647500,ABSTAIN
+7,A,Symmetry barrier (canonical),forbidden_direction,1,0.200000,0.700000,0.300000,Energy available; internal excitation present; alignment is insufficient -> deny.,0.450000,0.350000,0.200000,0.620000,0.050000,0.395000,DENY
+7,B,Nucleation / seed dependence (canonical),seeded,1,0.550000,0.550000,0.850000,Energy available; context/constraint support is strong -> permission can emerge.,0.450000,0.350000,0.200000,0.620000,0.050000,0.610000,ABSTAIN
+7,B,Nucleation / seed dependence (canonical),unseeded,1,0.550000,0.550000,0.100000,Energy available; insufficient context support -> abstain/deny (safe default).,0.450000,0.350000,0.200000,0.620000,0.050000,0.460000,DENY
+7,C,Access enablement (canonical),with_context_enablement,1,0.600000,0.600000,0.800000,Energy available; context provides access channel -> admissibility rises.,0.450000,0.350000,0.200000,0.620000,0.050000,0.640000,ABSTAIN
+7,C,Access enablement (canonical),without_context_enablement,1,0.600000,0.600000,0.000000,"Energy available; no context support -> deny/abstain despite same (g,a).",0.450000,0.350000,0.200000,0.620000,0.050000,0.480000,DENY
+7,D,Excitation without commitment (canonical),excited_misaligned,1,0.150000,0.850000,0.200000,Energy available; excitation high; alignment low -> deny (permission not granted).,0.450000,0.350000,0.200000,0.620000,0.050000,0.405000,DENY
+7,D,Excitation without commitment (canonical),excited_aligned,1,0.750000,0.850000,0.350000,Energy available; excitation high; alignment coherent; modest context -> likely allow/abstain.,0.450000,0.350000,0.200000,0.620000,0.050000,0.705000,ALLOW
+7,E,Pathway dependence (canonical),pathway_present,1,0.600000,0.550000,0.800000,Energy available; pathway/context exists -> admissibility can emerge.,0.450000,0.350000,0.200000,0.620000,0.050000,0.622500,ABSTAIN
+7,E,Pathway dependence (canonical),pathway_absent,1,0.600000,0.550000,0.050000,Energy available; no pathway/context -> abstain/deny (safe default).,0.450000,0.350000,0.200000,0.620000,0.050000,0.472500,DENY
