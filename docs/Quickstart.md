@@ -42,6 +42,7 @@ docs/
   Concept-Flyer_SSTS.pdf
   Quickstart.md
   FAQ.md
+  ADAPTER_MIN_SPECS_CHEM_RSMI_MIN_v1.md
 
 scripts/
   README.md
@@ -174,6 +175,24 @@ Where:
 - `H` is the Heaviside step function  
 
 This is a **gate**, not a model.
+
+---
+
+### Adapter Note (Reproducibility)
+
+The structural state `S = (g, a, c)` is **not abstract**.
+
+For chemistry inputs (RSMI-encoded reactions), a **minimum, fully deterministic,
+semantics-free adapter** defining exactly how to compute `(g, a, c)` is specified in:
+
+`docs/ADAPTER_MIN_SPECS_CHEM_RSMI_MIN_v1.md`
+
+This adapter:
+
+- requires only standard string operations
+- introduces no chemistry inference
+- is sufficient to reproduce all published SSTS chemistry results
+- serves as the **normative reference** for `(g, a, c)` computation in this domain
 
 ---
 
