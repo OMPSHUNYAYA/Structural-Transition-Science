@@ -64,6 +64,7 @@ Admissibility is evaluated conservatively and reproducibly using:
 ### **Docs**
 - [**Concept Flyer (PDF)**](docs/Concept-Flyer_SSTS_v1.6.pdf)
 - [**Full Specification (PDF)**](docs/SSTS_v1.6.pdf)
+- [**Minimum Adapter Specification — Chemistry (RSMI)**](docs/ADAPTER_MIN_SPECS_CHEM_RSMI_MIN_v1.md)
 - [**FAQ**](docs/FAQ.md)
 - [**Quickstart Guide**](docs/Quickstart.md)
 
@@ -189,6 +190,27 @@ This is a **gate**, not a model.
 - no optimization  
 
 All domain laws remain unchanged.
+
+---
+
+### 🧩 Adapter Note (Reproducibility)
+
+The structural state `S = (g, a, c)` used by SSTS is **not abstract**.
+
+For chemistry-domain inputs (RSMI-encoded reactions), a **minimum, fully deterministic,
+semantics-free adapter** defining exactly how to compute `(g, a, c)` is provided in:
+
+`docs/ADAPTER_MIN_SPECS_CHEM_RSMI_MIN_v1.md`
+
+This adapter:
+
+- uses only standard string operations
+- introduces no chemical inference or domain semantics
+- is sufficient to reproduce all published SSTS chemistry results
+- serves as the **normative reference** for `(g, a, c)` computation in this domain
+
+Additional domain adapters may exist in the future, but **never replace**
+this minimum reference.
 
 ---
 
