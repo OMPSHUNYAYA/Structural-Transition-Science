@@ -64,7 +64,7 @@ Admissibility is evaluated conservatively and reproducibly using:
 ### **Docs**
 - [**Concept Flyer (PDF)**](docs/Concept-Flyer_SSTS_v1.6.pdf)
 - [**Full Specification (PDF)**](docs/SSTS_v1.6.pdf)
-- [**Minimum Adapter Specification — Chemistry (RSMI)**](docs/ADAPTER_MIN_SPECS_CHEM_RSMI_MIN_v1.md)
+- [**Minimum Adapter Specification — Chemistry (RSMI)**](docs/ADAPTER_SPECS_CHEM_RSMI_MIN_v1.md)
 - [**FAQ**](docs/FAQ.md)
 - [**Quickstart Guide**](docs/Quickstart.md)
 
